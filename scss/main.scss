@@ -514,6 +514,9 @@ a {
         top: -78px;
         left: 166px;
         z-index: 2;
+        animation-name: html;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
     }
     .css-cup {
         width: 154px;
@@ -522,6 +525,9 @@ a {
         bottom: -13px;
         right: 99px;
         z-index: 2;
+        animation-name: css;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
     }
     .content {
         position: absolute;
@@ -731,9 +737,6 @@ a {
     50% {
         transform: translate(-10px, -10px);
     }
-    80% {
-        transform: translate(10px, 10px);
-    }
     100% {
         transform: translate(0, 0);
     }
@@ -745,9 +748,6 @@ a {
     }
     50% {
         transform: translate(-10px, -10px);
-    }
-    80% {
-        transform: translate(10px, 10px);
     }
     100% {
         transform: translate(0, 0);
