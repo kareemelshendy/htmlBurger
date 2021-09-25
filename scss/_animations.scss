@@ -1,0 +1,99 @@
+@keyframes burgerTopOn {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes burgerTopOff {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes burgerBottomOn {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes burgerBottomOff {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes text-on {
+    0% {
+        transform: translateX(0px) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50px) scale(0.5);
+        opacity: 0;
+    }
+}
+
+@keyframes text-off {
+    0% {
+        transform: translateX(-50px) scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes html {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-10px, -10px);
+    }
+    80% {
+        transform: translate(10px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes css {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-10px, -10px);
+    }
+    80% {
+        transform: translate(10px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}

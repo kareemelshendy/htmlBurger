@@ -1,0 +1,14 @@
+{
+    "name": "htmlburger",
+    "version": "1.0.0",
+    "description": "html burger",
+    "main": "index.js",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    },
+    "author": "kareemElshendy",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^6.0.1"
+    }
+}
